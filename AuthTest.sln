@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinRTClient", "WinRTClient", "{408EF6E9-A7D9-46F7-A0E7-75C7B11D480B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinRTClient.Windows", "WinRTClient\WinRTClient.Windows\WinRTClient.Windows.csproj", "{BFDE7F1C-E288-4208-A532-EA179BDB544C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAPI", "ConsoleAPI\ConsoleAPI.csproj", "{61B3A02F-ECB9-4D18-81A5-7FDD07EF4B87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3465FE8E-772A-4D83-BC9E-896DC0E8544E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		WinRTClient\WinRTClient.Shared\WinRTClient.Shared.projitems*{bfde7f1c-e288-4208-a532-ea179bdb544c}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Debug|ARM.Build.0 = Debug|ARM
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Debug|ARM.Deploy.0 = Debug|ARM
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Debug|x64.ActiveCfg = Debug|x64
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Debug|x64.Build.0 = Debug|x64
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Debug|x64.Deploy.0 = Debug|x64
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Debug|x86.ActiveCfg = Debug|x86
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Debug|x86.Build.0 = Debug|x86
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Debug|x86.Deploy.0 = Debug|x86
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Release|ARM.ActiveCfg = Release|ARM
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Release|ARM.Build.0 = Release|ARM
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Release|ARM.Deploy.0 = Release|ARM
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Release|x64.ActiveCfg = Release|x64
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Release|x64.Build.0 = Release|x64
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Release|x64.Deploy.0 = Release|x64
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Release|x86.ActiveCfg = Release|x86
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Release|x86.Build.0 = Release|x86
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C}.Release|x86.Deploy.0 = Release|x86
+		{61B3A02F-ECB9-4D18-81A5-7FDD07EF4B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B3A02F-ECB9-4D18-81A5-7FDD07EF4B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B3A02F-ECB9-4D18-81A5-7FDD07EF4B87}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{61B3A02F-ECB9-4D18-81A5-7FDD07EF4B87}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{61B3A02F-ECB9-4D18-81A5-7FDD07EF4B87}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{61B3A02F-ECB9-4D18-81A5-7FDD07EF4B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B3A02F-ECB9-4D18-81A5-7FDD07EF4B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B3A02F-ECB9-4D18-81A5-7FDD07EF4B87}.Release|ARM.ActiveCfg = Release|Any CPU
+		{61B3A02F-ECB9-4D18-81A5-7FDD07EF4B87}.Release|x64.ActiveCfg = Release|Any CPU
+		{61B3A02F-ECB9-4D18-81A5-7FDD07EF4B87}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFDE7F1C-E288-4208-A532-EA179BDB544C} = {408EF6E9-A7D9-46F7-A0E7-75C7B11D480B}
+	EndGlobalSection
+EndGlobal
