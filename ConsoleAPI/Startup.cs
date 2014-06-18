@@ -11,7 +11,7 @@ namespace ConsoleAPI
         private const string Issuer = "";
         private const string Audience = "";
         readonly byte[] _secret = TextEncodings.Base64Url.Decode("");
-
+        
         public void Configuration(IAppBuilder app)
         {
             var config = new HttpConfiguration();
